@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const dataSource = new typeorm.DataSource({
     type: "postgres",
-    host: "localhost",
+    host: "postgres",
     port: 5432,
     username: "isuruvithanage",
     password: "",

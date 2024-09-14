@@ -16,7 +16,7 @@ serviceEndpoints:
   order-service:
     url: 'http://order-service:8005'
   customer-service:
-    url: 'http://localhost:8004'
+    url: 'http://customer-service:8004'
 policies:
   - basic-auth
   - cors
