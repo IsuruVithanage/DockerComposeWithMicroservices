@@ -14,7 +14,7 @@ apiEndpoints:
       - '/customer/*'
 serviceEndpoints:
   order-service:
-    url: 'http://localhost:8005'
+    url: 'http://order-service:8005'
   customer-service:
     url: 'http://localhost:8004'
 policies:
