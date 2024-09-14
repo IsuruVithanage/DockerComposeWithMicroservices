@@ -6,8 +6,8 @@ const dataSource = new typeorm.DataSource({
     type: "postgres",
     host: "postgres",
     port: 5432,
-    username: "isuruvithanage",
-    password: "",
+    username: "", //Your Username
+    password: "", //Your Password
     database: "customer_service_db",
     synchronize: true,
     logging : true,
